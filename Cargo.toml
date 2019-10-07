@@ -6,9 +6,12 @@ repository = "https://github.com/Smasher816/imgui-log"
 authors = ["Smasher816 <Smasher816@gmail.com>"]
 license = "MIT/Apache-2.0"
 keywords = ["amethyst", "imgui", "logging", "log", "logger"]
-categories = ["API bindings", "GUI"]
+categories = ["development-tools::debugging", "game-engines", "gui"]
 readme = "README.md"
 edition = "2018"
+
+[package.metadata.docs.rs]
+all-features = true
 
 [features]
 amethyst-system = [ "amethyst", "amethyst-imgui" ]

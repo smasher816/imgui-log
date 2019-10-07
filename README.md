@@ -1,3 +1,6 @@
+[![Latest release on crates.io](https://meritbadge.herokuapp.com/imgui-log)](https://crates.io/crates/imgui-log)
+[![Documentation on docs.rs](https://docs.rs/imgui-log/badge.svg)](https://docs.rs/imgui-log)
+
 # imgui-log
 
 A logger that routes logs to an imgui window.
